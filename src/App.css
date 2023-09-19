@@ -1,0 +1,125 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+button {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 27px;
+  border: 2px groove;
+}
+
+ul.layout {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  list-style-type: none;
+}
+.profile {
+  text-align: center;
+  background: beige;
+  border-radius: 20px;
+  box-shadow: 20px 5px 61px;
+}
+img {
+  width: 35%;
+  height: 157px;
+  border-radius: 50%;
+  border: 5px groove blueviolet;
+}
+
+p.name {
+  margin: 10px 0;
+  background: beige;
+  padding: 7px;
+  border-radius: 10px;
+  width: 239px;
+  font-family: sans-serif;
+}
+p.phone {
+  background: beige;
+  padding: 7px;
+  width: 338px;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+p.email {
+  background: beige;
+  padding: 7px;
+  width: 300px;
+  font-family: sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+nav{
+  background: black;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button.btn {
+  background: #1fcc1f;
+  color: white;
+}
+.btn:hover{
+  background-color: lightgreen;
+  color: black;
+}
+.btn-close{
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  color: antiquewhite;
+}
+
+h2 {
+  text-align: center;
+  font-size: 41px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.bottle{
+  height: 10vh;
+  width: 62%;
+  background-color: black;
+  grid-column-start: 2;
+  margin: 38px auto;
+  font-size: 28px;
+  color: white;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 1px 39px 62px -2px black;
+}
+
+@media (max-width:768px){
+  ul.layout{
+    display: contents;
+  }
+  p.email{
+    width: 239px;
+  }
+  p.phone{
+    width: 239px;
+  }
+  #list{
+    display: block;
+  }
+}
